@@ -4,7 +4,7 @@
 #
 Name     : salib
 Version  : 1.4.5
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/c9/eb/d99fc629b5c40c79231027879bdba738d28b182335a6ff05ea0b8a2b7f38/SALib-1.4.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c9/eb/d99fc629b5c40c79231027879bdba738d28b182335a6ff05ea0b8a2b7f38/SALib-1.4.5.tar.gz
 Summary  : Tools for sensitivity analysis. Contains Sobol, Morris, and FAST methods
@@ -15,19 +15,19 @@ Requires: salib-license = %{version}-%{release}
 Requires: salib-python = %{version}-%{release}
 Requires: salib-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
 BuildRequires : pypi(matplotlib)
 BuildRequires : pypi(numpy)
 BuildRequires : pypi(pandas)
 BuildRequires : pypi(pathos)
+BuildRequires : pypi(py)
 BuildRequires : pypi(scipy)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(wheel)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 Sensitivity Analysis Library (SALib)
@@ -88,7 +88,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1638315260
+export SOURCE_DATE_EPOCH=1649439657
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
