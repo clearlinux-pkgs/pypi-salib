@@ -4,7 +4,7 @@
 #
 Name     : pypi-salib
 Version  : 1.4.7
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/8c/4a/c7903eb8cb59e9584c110724c62e15e551f06152a0c66fd72dc51c066893/salib-1.4.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8c/4a/c7903eb8cb59e9584c110724c62e15e551f06152a0c66fd72dc51c066893/salib-1.4.7.tar.gz
 Summary  : Tools for global sensitivity analysis. Contains Sobol', Morris, FAST, DGSM, PAWN, HDMR, Moment Independent and fractional factorial methods
