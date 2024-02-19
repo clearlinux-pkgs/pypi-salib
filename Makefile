@@ -1,5 +1,5 @@
 PKG_NAME := pypi-salib
-URL = https://files.pythonhosted.org/packages/8c/4a/c7903eb8cb59e9584c110724c62e15e551f06152a0c66fd72dc51c066893/salib-1.4.7.tar.gz
+URL = https://files.pythonhosted.org/packages/eb/f0/ee131b27db5d63f7732161aaef2a39ab23fe46007e31e2aeeb3842183a0e/salib-1.4.8.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
